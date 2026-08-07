@@ -1,0 +1,25 @@
+name: CI/CD Automation Toolkit
+description: Bulk GitHub Actions workflows, job application automation, and CI run reports.
+author: Kiliaan Vanvoorden
+
+inputs:
+  workflow:
+    description: Workflow to run (generic, rust, python, node, podman-build)
+    required: false
+    default: generic
+  run-tests:
+    description: Whether to run tests
+    required: false
+    default: "true"
+
+runs:
+  using: composite
+  steps:
+    - run: echo "CI/CD Automation Toolkit selected workflow: ${{ inputs.workflow }}"
+      shell: bash
+    - run: echo "Run tests: ${{ inputs.run-tests }}"
+      shell: bash
+    - run: |
+        echo "See included workflows in this repository for reusable workflow definitions."
+        echo "Copy desired workflow files into .github/workflows/ in your repository."
+      shell: bash
