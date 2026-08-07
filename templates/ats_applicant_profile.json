@@ -1,0 +1,86 @@
+{
+  "first_name": "Kiliaan",
+  "last_name": "Vanvoorden",
+  "email": "bakerstreetbandit@zohomail.eu",
+  "phone": "+32 471 315 269",
+  "location": "Riemst, Belgium",
+  "github": "github.com/BoozeLee",
+  "linkedin": "linkedin.com/in/kiliaanvanvoorden",
+  "portfolio": "bakerstreetbandit.dev",
+  "address": "Riemst, Belgium",
+  "city": "Riemst",
+  "country": "Belgium",
+  "postal_code": "3740",
+  "age": "40",
+  "us_citizen": false,
+  "sponsorship_needed": true,
+  "gender": "Male",
+  "race": "White",
+  "veteran_status": "Not a veteran",
+  "disability_status": "No disability",
+  "resume_path": "/home/kilisan/resume.pdf",
+  "cover_letter": "Dear Hiring Manager, I am writing to express my strong interest in the position. As a full-stack AI engineer and founder of Baker Street Labs, I bring extensive experience in autonomous agent architecture, neuromorphic computing, and production AI systems. My projects include BeeAI Hive 999 (28+ AI agents), PRIMAX-AI (neuromorphic spiking neural networks), TrendForge (autonomous on-chain research agent), and NeuroForge (Solana-based neuromorphic AI). I am excited about the opportunity to contribute my expertise in AI/ML, multi-agent orchestration, and full-stack development to your team. Best regards, Kiliaan Vanvoorden",
+  "skills": {
+    "languages": ["TypeScript", "Python", "Rust", "Go", "Dart", "Shell", "Swift"],
+    "frameworks": ["React", "Next.js", "FastAPI", "Vite", "Supabase", "Stripe", "Solana"],
+    "ai_ml": ["LLMs", "multi-agent systems", "autonomous agents", "neuromorphic computing", "spiking neural networks", "semantic search", "RAG", "MLOps"],
+    "tools": ["Docker", "Git", "GitHub Actions", "CI/CD", "Playwright", "Selenium", "Ollama"],
+    "domains": ["AI research platforms", "autonomous agent orchestration", "neuromorphic AI", "on-chain AI", "enterprise security AI", "financial analysis AI", "music tech", "web scraping"]
+  },
+  "key_projects": [
+    {
+      "name": "Baker Street Laboratory",
+      "url": "https://github.com/BoozeLee/Baker-Street-Laboratory-1",
+      "description": "Autonomous AI research platform with 8 specialized models, multi-agent orchestration, FastAPI + Stripe + Supabase",
+      "stack": ["JavaScript", "FastAPI", "Supabase", "Stripe"]
+    },
+    {
+      "name": "Beehive",
+      "url": "https://github.com/BoozeLee/beehive",
+      "description": "Orchestrate coding agents across isolated git workspaces",
+      "stack": ["Rust"]
+    },
+    {
+      "name": "TrendForge",
+      "url": "https://github.com/BoozeLee/trendforge-agent",
+      "description": "Autonomous AI research agent on Solana with SAP integration and x402 USDC payments",
+      "stack": ["Rust", "Solana"]
+    },
+    {
+      "name": "NeuroForge",
+      "url": "https://github.com/BoozeLee/neuroforge-agent",
+      "description": "Neuromorphic autonomous SAP agent using Leaky Integrate-and-Fire spiking neural networks",
+      "stack": ["Rust", "Solana"]
+    },
+    {
+      "name": "Synapse Ace Agent",
+      "url": "https://github.com/BoozeLee/synapse-ace-agent",
+      "description": "Autonomous AI agent for SAP/Ace workflows with x402 payments and Sentinel validation",
+      "stack": ["TypeScript"]
+    },
+    {
+      "name": "mixhive",
+      "url": "https://github.com/BoozeLee/mixhive",
+      "description": "DJ-first social music platform built with React 19 + Vite + Supabase",
+      "stack": ["TypeScript", "React", "Vite", "Supabase"]
+    },
+    {
+      "name": "AutomationCodex Core",
+      "url": "https://github.com/BoozeLee/automationcodex-core",
+      "description": "Graph theory and MDP-based automation framework",
+      "stack": ["Python"]
+    },
+    {
+      "name": "CodeQAI",
+      "url": "https://github.com/BoozeLee/codeqai",
+      "description": "Local-first semantic code search and chat with fine-tuning datasets",
+      "stack": ["Python"]
+    },
+    {
+      "name": "Go Research Spider",
+      "url": "https://github.com/BoozeLee/go-research-spider",
+      "description": "Advanced Go web spider for AI research with Selenium and Playwright",
+      "stack": ["Shell", "Go"]
+    }
+  ]
+}

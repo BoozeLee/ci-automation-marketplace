@@ -1,0 +1,24 @@
+name: Podman Build
+on: [push, pull_request]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: redhat-actions/podman-build@v1
+        with:
+          image: ghcr.io/${{ github.repository_owner }}/${{ github.event.repository.name }}
+          tags: latest
+          Dockerfile: Dockerfile
+          path: .
+      - uses: redhat-actions/podman-login@v1
+        if: github.event_name != 'pull_request'
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+      - uses: redhat-actions/podman-push@v1
+        if: github.event_name != 'pull_request'
+        with:
+          image: ghcr.io/${{ github.repository_owner }}/${{ github.event.repository.name }}
+          tags: latest
